@@ -1,0 +1,33 @@
+.review {
+    min-height: 946px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 68px;
+        
+    }
+    &__img {
+            margin-right: 60px;
+            border-radius: 50%;
+            width: 169px;
+            height: 169px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(13, 13, 13);
+        text-align: left;  
+    }
+    &__exp {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 300;
+        color: rgb(100, 100, 100);  
+    }
+    &__descr {
+        margin-top: 19px;
+        font-size: 16px;
+        color: rgb(13, 13, 13);
+        font-weight: 300;
+    }
+}
