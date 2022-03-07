@@ -11,6 +11,9 @@
             font-size: 13px;
         }
     }
+    .pageup {
+        right: 0px;
+    }
 }
 @media (max-width: 767px) {
     .container {
@@ -127,6 +130,11 @@
             font-size: 17px;
         }
     }
+    .modali {
+        &__close {
+            right: 0;
+        }
+    }
       
 }
 @media (max-width: 374px) {
@@ -143,6 +151,13 @@
         }
         &__addr {
             font-size: 17px;
+        }
+    }
+    .modali {
+        width: 300px;
+        padding: 15px 40px 17px 40px;
+        &__close {
+            right: 6px;
         }
     }
 }

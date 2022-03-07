@@ -11,7 +11,7 @@
         justify-content: space-between;
         
     }
-    &__icon {
+    &__item {
         width: 240px;
         display: flex;
         flex-direction: column;
@@ -34,5 +34,18 @@
             text-transform: uppercase;
             text-decoration: underline;
         }
+        
     }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+
 }
